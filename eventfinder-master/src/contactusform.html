@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container {
+      border: 2px white;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-image: url('download.png');
+    }
+    .align {
+    }
+  </style>
+  <body>
+    <h2>contact form</h2>
+    <p>
+      please fill in your information and we will be sending your order in time
+    </p>
+    <div class="container">
+      <label for="firstname">your name</label>
+
+      <input type="text" value="firstname" name="firstname" />
+
+      <input type="text" name="last name" value="last name" /><br />
+      <br />
+
+      <label for="email">your email</label>
+      <input type="email" value="ex:kk@gmail.com" name="email" /><br /><br />
+      <label for="phone">phone*</label>
+      <input type="number" value="###" name="firstname" />
+      <input type="number" value="###" name="firstname" />
+      <input type="number" value="###" name="firstname" /><br /><br />
+      <label for="list">Message subject*</label>
+      <select name="typ" id="typ">
+        <option value="option">other</option>
+      </select>
+      <br /><br />
+      <label for="message">Message Box*</label>
+      <textarea id="messge box" name="mssg box" rows="6" cols="50"></textarea>
+      <br />
+      <br />
+      <label type="verification">
+        verification*
+      </label>
+      <br />
+      <br />
+      <hr />
+      <br />
+
+      <button type="submit" value="Submit">SUBMIT FORM</button>
+    </div>
+  </body>
+</html>
